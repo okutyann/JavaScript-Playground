@@ -41,5 +41,28 @@ newArray.push(honoka);
 // console.log(newArray);
 
 const humans = newArray.forEach((human) => {
-    console.log(human)
+    // console.log(human)
 } )
+
+
+let family = [];
+let familyObj = {
+    name: "",
+    age: 0,
+    height: 0
+}
+
+const makeFamily = (name,age,height,num) => {
+    familyObj.name = name;
+    familyObj.age = age;
+    familyObj.height =height
+    family = [...family,familyObj]
+}
+makeFamily ("honoka",24,160,0)
+console.log(family);
+makeFamily ("minaru",22,163,1)
+console.log(family);
+makeFamily ("misaki",15,164,2)
+
+console.log(familyObj);
+console.log(family);
