@@ -29,3 +29,24 @@ button {
   border-radius: 3px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
 }
+
+.required {
+  color: red;
+  font-size: 0.9em;
+  padding: 3px;
+  background-color: #fee;
+  font-weight: bold;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.control {
+  margin-bottom: 3em;
+}
+
+label {
+  margin-bottom: 0.5em;
+  display: block;
+}
